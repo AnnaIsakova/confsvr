@@ -2,10 +2,9 @@ server:
   port: 8888
 
 spring:
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          searchLocations: D:/Java/bookingApp/confsvr/src/main/resources/config/bookingservice
+        git:
+          uri: https://github.com/AnnaIsakova/confsvr
+          searchPaths: bookingservice
