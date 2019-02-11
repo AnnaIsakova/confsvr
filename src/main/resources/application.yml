@@ -6,5 +6,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/AnnaIsakova/confsvr
+          uri: https://github.com/AnnaIsakova/booking_config
           searchPaths: bookingservice
